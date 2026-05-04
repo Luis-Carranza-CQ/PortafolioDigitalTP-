@@ -52,6 +52,35 @@ Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a
 
 ##### Ejemplo de mi pseudocódigo, pero en lenguaje C
 
+#include <stdio.h>
+
+int main() {
+    // Definir las variables
+    float sueldo_mensual, sueldo_semanal, ahorro_semanal, ahorro_anual;
+
+    // Entrada de datos
+    printf("----------------------------------------------------\n");
+    printf("$$$-CALCULO DE AHORRO SEMANAL Y ANUAL-$$$\n");
+    printf("----------------------------------------------------\n");
+    printf("Ingrese su sueldo mensual ($): ");
+    scanf("%f", &sueldo_mensual);
+
+    // Proceso
+    sueldo_semanal = sueldo_mensual / 4;
+    ahorro_semanal = sueldo_semanal * 0.15;
+    // Calculo de ahorro anual (12 meses = 48 semanas)
+    ahorro_anual = ahorro_semanal * 48;
+
+    // Salida de resultados
+    printf("----------------------------------------------------\n");
+    printf("SU AHORRO SEMANAL ES DE: %.2f $\n", ahorro_semanal);
+    printf("----------------------------------------------------\n");
+    printf("SU AHORRO ANUAL ES DE: %.2f $\n", ahorro_anual);
+    printf("----------------------------------------------------\n");
+
+    return 0;
+}
+
 ---
 
 ### 2. Programación por bloques
