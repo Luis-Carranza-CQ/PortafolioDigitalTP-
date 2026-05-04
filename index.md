@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="<img width="400" height="156" alt="logo_unl" src="https://github.com/user-attachments/assets/03e5ccab-6a18-40ac-a3c1-6cb6c8173eb5" />
+  <img src="<img width="400" height="156" alt="logo_unl" src="<img width="400" height="156" alt="logo_unl" src="https://github.com/user-attachments/assets/e5940bf1-af6e-4356-a17e-77a07fa0f175" />
+" />
 " width="350" alt="Logo Universidad Nacional de Loja">
 </p>
 
