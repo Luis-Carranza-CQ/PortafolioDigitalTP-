@@ -1,10 +1,10 @@
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1d964a08-7f39-473b-934d-c76ba9f2adac" />
-
 # Teoria de la Programación
 
 ## Unidad 1
 # 🎓 Portafolio Digital de Aprendizaje - Unidad 1
 ## Carrera de Computación | Universidad Nacional de Loja
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e6ff6f69-784b-4086-81a3-9fe3720441c4" />
 
 ---
 
