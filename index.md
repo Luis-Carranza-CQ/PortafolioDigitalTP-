@@ -81,6 +81,9 @@ Su objetivo principal es detectar errores de lógica, como fórmulas incorrectas
 Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los humanos dar instrucciones precisas a una computadora para resolver problemas o procesar datos. Estas herramientas se clasifican principalmente por cómo traducen esas órdenes: los lenguajes compilados, como C, traducen todo el código de una sola vez antes de ejecutarlo para ganar velocidad; los interpretados, como Python, traducen y ejecutan el código línea por línea en tiempo real para ser más flexibles; mientras que lenguajes como Java usan un método híbrido que traduce el código a un formato intermedio para que pueda funcionar en cualquier dispositivo sin cambios.
 
 ##### Ejemplo de mi pseudocódigo, pero en lenguaje C
+<img width="820" height="1021" alt="image" src="https://github.com/user-attachments/assets/db4b189b-b599-4f72-a051-5402e36441e8" />
+
+##### Codigo en C
 ```
 #include <stdio.h>
 
@@ -117,6 +120,8 @@ int main() {
 
 ### 2. Programación por bloques
 La programación por bloques es una forma de programar diseñada para facilitar el aprendizaje de la lógica computacional sin necesidad de escribir código manualmente. En lugar de usar texto complejo, se utilizan piezas gráficas (parecidas a bloques de construcción o rompecabezas) que se arrastran y conectan entre sí para crear instrucciones.
+<img width="383" height="259" alt="image" src="https://github.com/user-attachments/assets/fb95ffec-cbbe-4c0b-b879-570298713b2d" />
+<img width="690" height="222" alt="image" src="https://github.com/user-attachments/assets/1796956e-760e-45ea-bacb-48c734f67532" />
 
 ---
 
@@ -130,14 +135,71 @@ Se requiere un programa que automatice el cálculo del área de un triángulo. E
 * **Proceso:** Aplicar la formula: área = (base*altura) / 2
 * **Salida:** Un mensaje con el valor resultante del área
 
-### 3. Diseño del Algoritmo 
-#### 3.1 Diagrama de flujo:
+### 3. Diseño del Algoritmo
+#### 3.1 Pseudocódigo
+<img width="886" height="878" alt="image" src="https://github.com/user-attachments/assets/c580fac5-fc3a-428f-a443-1f1b4666ede7" />
+##### Codigo en PSeInt
+```
+Algoritmo area_Triangulo
+	//Definir Variables
+	Definir base Como Real;
+	Definir altura Como Real;
+	Definir area Como Real;
+	
+	//Datos de Entrada
+	Escribir "Ingrese la base";
+	leer base;
+	
+	Escribir "Ingrese la altura";
+	leer altura;
+	
+	//Proceso 
+	//base * altura / 2
+	area = (base * altura) /2;
+	
+	//Salida
+	Escribir "El area es: ", area;
+	
+FinAlgoritmo
 
-#### 3.2 Pseudocódigo
+```
+#### 3.2 Diagrama de flujo:
+<img width="739" height="1172" alt="image" src="https://github.com/user-attachments/assets/7cf0760e-337d-41f2-85db-005ab32b2b08" />
 
 ### 4. Codificación (código fuente)
+<img width="791" height="951" alt="image" src="https://github.com/user-attachments/assets/15a9aef1-c465-4b22-904a-0c3b7d108ea3" />
+#### Codigo en C 
+```
+#include <stdio.h>
 
+int main() {
+    // Definir Variables
+    float base, altura, area;
+
+    // Datos de Entrada
+    printf("Ingrese la base: ");
+    scanf("%f", &base);
+
+    printf("Ingrese la altura: ");
+    scanf("%f", &altura);
+
+    // Proceso
+    area = (base * altura) / 2;
+
+    // Salida
+    printf("El area es: %.2f\n", area);
+
+    return 0;
+}
+```
 ### 5. Validación (prueba de escritorio)
+
+| Variable | Valor Resultante | Procedimiento Matemático Aplicado |
+| :--- | :---: | :--- |
+| **base** | 10 | Valor ingresado por el usuario |
+| **altura** | 5 | Valor ingresado por el usuario |
+| **área** | **25** | $(10 \times 5) / 2$ (Base por altura dividido para dos) |
+
 
 ---
 
