@@ -66,13 +66,19 @@ Se requiere un programa que automatice el cálculo del área de un triángulo. E
 
 ### 11. Principales dificultades de los contenidos 
 Lo más difícil es que C es mucho más estricto con las reglas: si olvidas un punto y coma ( ; ) o una llave ({ }), el programa no funciona. También es confuso aprender a usar códigos como %f o el símbolo & para guardar datos en la memoria, algo que en PSeInt no era necesario. Por último, está la pelea con el antivirus o Windows, que a veces bloquea tus archivos .exe y no te deja ver si tu código quedó bien.
+
 ---
+
 ### 12. Reflexión critica en la aplicación
 Programar en C me enseñó que la lógica no lo es todo; la precisión técnica es vital. A diferencia de PSeInt, aquí un pequeño error de escritura detiene todo. Esta experiencia me ayudó a ser más ordenado y a entender que, como ingeniero, debo dominar tanto la resolución de problemas como el funcionamiento real de las herramientas y la seguridad de la computadora.
+
 ---
+
 ### 13. Conclusión
 En conclusión, el desarrollo de este programa demuestra que la programación es un proceso que va desde la lógica básica hasta la implementación técnica real. Lograr que el código pase de un simulador como PSeInt a un lenguaje profesional como C requiere no solo saber resolver el problema matemático, sino también aprender a configurar el entorno de trabajo y superar los bloqueos de seguridad del sistema. Esta práctica es fundamental para entender cómo se construye el software de manera estructurada y funcional.
+
 ---
+
 ### 14. Bibliografía
 
 
