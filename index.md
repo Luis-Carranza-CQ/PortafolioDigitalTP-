@@ -1,4 +1,5 @@
-<img width="400" height="156" alt="logo_unl" src="https://github.com/user-attachments/assets/0b5c969e-0577-42cd-b6a7-f06c446c78f0" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1d964a08-7f39-473b-934d-c76ba9f2adac" />
+
 
 
 # Teoria de la Programación
