@@ -222,5 +222,21 @@ En conclusión, el desarrollo de este programa demuestra que la programación es
 
 ## Bibliografía
 
+---
+
+## 📖 Referencias Bibliográficas (Estilo IEEE)
+
+Para el desarrollo técnico de este portafolio, se han consultado las siguientes fuentes de autoridad en el ámbito de la computación y la algoritmia:
+
+*   **[1]** EBAC, "¿Qué es el lenguaje C? Definición y para qué sirve", *Blog de EBAC*, 2024. [En línea]. Disponible en: [https://ebac.mx/blog/que-es-lenguaje-c](https://ebac.mx/blog/que-es-lenguaje-c)
+*   **[2]** Profile Software Solutions, "¿Qué es el pseudocódigo? Definición, características y ejemplos", *Profile Blog*, 2023. [En línea]. Disponible en: [https://profile.es/blog/que-es-el-pseudocodigo/](https://profile.es/blog/que-es-el-pseudocodigo/)
+*   **[3]** Secretaría de Innovación Pública, "Programación por bloques", *Argentina.gob.ar*, 2024. [En línea]. Disponible en: [https://www.argentina.gob.ar/jefatura/innovacion-publica/...](https://www.argentina.gob.ar/jefatura/innovacion-publica/gobierno-abierto-y-pais-digital/paisdigital/puntos/herramientas/Programaci%C3%B3n-por-bloques)
+
+---
+<p align="center">
+  <img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-web.png" width="150">
+  <br>
+  <small>Universidad Nacional de Loja | Carrera de Computación</small>
+</p>
 
 ## Unidad 3
