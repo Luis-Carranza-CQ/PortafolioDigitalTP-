@@ -114,7 +114,6 @@ int main() {
 
     return 0;
 }
-
 ```
 
 ---
@@ -165,10 +164,11 @@ FinAlgoritmo
 ```
 
 #### 3.2 Diagrama de flujo:
-<img width="739" height="1172" alt="image" src="https://github.com/user-attachments/assets/7cf0760e-337d-41f2-85db-005ab32b2b08" />
+<img width="739" height="1172" alt="image" src="https://github.com/user-attachments/assets/5386edf5-b063-4153-83e6-8aa1acedf154" />
 
 ### 4. Codificación (código fuente)
-<img width="791" height="951" alt="image" src="https://github.com/user-attachments/assets/15a9aef1-c465-4b22-904a-0c3b7d108ea3" />
+<img width="791" height="951" alt="image" src="https://github.com/user-attachments/assets/f7cff011-3d9b-43a8-b017-8fc124b76aa4" />
+
 #### Codigo en C 
 ```
 #include <stdio.h>
