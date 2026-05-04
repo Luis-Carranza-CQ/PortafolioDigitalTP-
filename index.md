@@ -165,6 +165,7 @@ FinAlgoritmo
 ```
 
 #### 3.2 Diagrama de flujo:
+<img width="739" height="1172" alt="image" src="https://github.com/user-attachments/assets/c4719960-0cf5-4803-9fa1-862979908907" />
 
 
 ### 4. Codificación (código fuente)
