@@ -171,7 +171,7 @@ FinAlgoritmo
 
 
 #### Codigo en C 
-```
+
 #include <stdio.h>
 
 int main() {
@@ -185,15 +185,14 @@ int main() {
     printf("Ingrese la altura: ");
     scanf("%f", &altura);
 
-    // Proceso
+    // Proceso: Aplicación de la fórmula geométrica estándar
     area = (base * altura) / 2;
 
-    // Salida
+    // Salida: Resultado formateado con dos decimales
     printf("El area es: %.2f\n", area);
 
     return 0;
 }
-```
 
 ### 5. Validación (prueba de escritorio)
 
