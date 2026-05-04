@@ -172,7 +172,7 @@ FinAlgoritmo
 
 #### Codigo en C  
 
-```
+```c
 #include <stdio.h>
 
 int main() {
