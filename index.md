@@ -1,7 +1,5 @@
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/1d964a08-7f39-473b-934d-c76ba9f2adac" />
 
-
-
 # Teoria de la Programación
 
 ## Unidad 1
