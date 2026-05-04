@@ -222,8 +222,6 @@ En conclusión, el desarrollo de este programa demuestra que la programación es
 
 ## Bibliografía
 
----
-
 Para el desarrollo técnico de este portafolio, se han consultado las siguientes fuentes de autoridad en el ámbito de la computación y la algoritmia:
 
 *   **[1]** EBAC, "¿Qué es el lenguaje C? Definición y para qué sirve", *Blog de EBAC*, 2024. [En línea]. Disponible en: [https://ebac.mx/blog/que-es-lenguaje-c](https://ebac.mx/blog/que-es-lenguaje-c)
@@ -232,10 +230,11 @@ Para el desarrollo técnico de este portafolio, se han consultado las siguientes
 
 ---
 <p align="center">
-  <img width="150" height="150" alt="Universidad-Nacional-de-Loja-UNL" src="https://github.com/user-attachments/assets/5b70100a-d4e6-4a87-bfbe-e22698ffcb22" />
+  <img width="1376" height="768" alt="Gemini_Generated_Image_aa1eloaa1eloaa1e" src="https://github.com/user-attachments/assets/26551b39-a60b-452f-86ec-b84f067c4379" />
   <br>
   <small>Universidad Nacional de Loja | Carrera de Computación</small>
 </p>
+
 
 
 
