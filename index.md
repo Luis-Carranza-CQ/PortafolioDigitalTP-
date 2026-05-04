@@ -40,12 +40,12 @@ Un diagrama de flujo es una herramienta visual que utiliza símbolos estandariza
 Una prueba de escritorio es un proceso de simulación manual en el que el desarrollador actúa como el procesador de la computadora. Consiste en seguir paso a paso las instrucciones de un algoritmo o pseudocódigo, utilizando valores de entrada arbitrarios y registrando los cambios en las variables en una tabla.
 Su objetivo principal es detectar errores de lógica, como fórmulas incorrectas, bucles infinitos o condiciones mal planteadas, que a menudo pasan desapercibidos durante la redacción del código.
 
-Variable	Procedimiento Matemático Aplicado	Valor Resultante
-sueldo_mensual	Valor ingresado por el usuario.	800
-sueldo_semanal	$800 / 4 (Sueldo dividido para 4 semanas).	200
-ahorro_semanal	$200 * 0.15 (15% del sueldo semanal).	30
-ahorro anual	$30 * 48 (Ahorro semanal por 48 semanas).	1440
-
+| Variable | Procedimiento Matemático | Valor Resultante |
+| :--- | :--- | :---: |
+| **sueldo_mensual** | Entrada de datos | 800 |
+| **sueldo_semanal** | sueldo_mensual / 4 | 200 |
+| **ahorro_semanal** | sueldo_semanal * 0.15 | 30 |
+| **ahorro_anual** | ahorro_semanal * 48 | **1440** |
 
 #### 1.4 Lenguajes de programación 
 Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los humanos dar instrucciones precisas a una computadora para resolver problemas o procesar datos. Estas herramientas se clasifican principalmente por cómo traducen esas órdenes: los lenguajes compilados, como C, traducen todo el código de una sola vez antes de ejecutarlo para ganar velocidad; los interpretados, como Python, traducen y ejecutan el código línea por línea en tiempo real para ser más flexibles; mientras que lenguajes como Java usan un método híbrido que traduce el código a un formato intermedio para que pueda funcionar en cualquier dispositivo sin cambios.
