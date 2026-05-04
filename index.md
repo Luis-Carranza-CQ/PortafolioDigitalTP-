@@ -34,10 +34,18 @@ El pseudocódigo es una forma de expresar la lógica de un algoritmo utilizando 
 
 #### 1.2 Diagrama de flujo: 
 Un diagrama de flujo es una herramienta visual que utiliza símbolos estandarizados para representar los pasos sucesivos de un proceso o algoritmo. Mientras que el pseudocódigo es una descripción narrativa, el diagrama de flujo ofrece una perspectiva geométrica que facilita la identificación de errores lógicos, bucles y bifurcaciones en el sistema.
+<img width="758" height="1239" alt="image" src="https://github.com/user-attachments/assets/f1395712-6eb4-44df-ac6e-d0a3b5999a64" />
 
 #### 1.3 Prueba de Escritorio
 Una prueba de escritorio es un proceso de simulación manual en el que el desarrollador actúa como el procesador de la computadora. Consiste en seguir paso a paso las instrucciones de un algoritmo o pseudocódigo, utilizando valores de entrada arbitrarios y registrando los cambios en las variables en una tabla.
 Su objetivo principal es detectar errores de lógica, como fórmulas incorrectas, bucles infinitos o condiciones mal planteadas, que a menudo pasan desapercibidos durante la redacción del código.
+
+Variable	Procedimiento Matemático Aplicado	Valor Resultante
+sueldo_mensual	Valor ingresado por el usuario.	800
+sueldo_semanal	$800 / 4 (Sueldo dividido para 4 semanas).	200
+ahorro_semanal	$200 * 0.15 (15% del sueldo semanal).	30
+ahorro anual	$30 * 48 (Ahorro semanal por 48 semanas).	1440
+
 
 #### 1.4 Lenguajes de programación 
 Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los humanos dar instrucciones precisas a una computadora para resolver problemas o procesar datos. Estas herramientas se clasifican principalmente por cómo traducen esas órdenes: los lenguajes compilados, como C, traducen todo el código de una sola vez antes de ejecutarlo para ganar velocidad; los interpretados, como Python, traducen y ejecutan el código línea por línea en tiempo real para ser más flexibles; mientras que lenguajes como Java usan un método híbrido que traduce el código a un formato intermedio para que pueda funcionar en cualquier dispositivo sin cambios.
