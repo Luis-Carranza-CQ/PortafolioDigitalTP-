@@ -114,6 +114,7 @@ int main() {
 
     return 0;
 }
+
 ```
 
 ---
@@ -161,8 +162,8 @@ Algoritmo area_Triangulo
 	Escribir "El area es: ", area;
 	
 FinAlgoritmo
-
 ```
+
 #### 3.2 Diagrama de flujo:
 <img width="739" height="1172" alt="image" src="https://github.com/user-attachments/assets/7cf0760e-337d-41f2-85db-005ab32b2b08" />
 
@@ -192,6 +193,7 @@ int main() {
     return 0;
 }
 ```
+
 ### 5. Validación (prueba de escritorio)
 
 | Variable | Valor Resultante | Procedimiento Matemático Aplicado |
