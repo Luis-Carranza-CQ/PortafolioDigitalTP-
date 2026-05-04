@@ -230,7 +230,7 @@ Para el desarrollo técnico de este portafolio, se han consultado las siguientes
 
 ---
 <p align="center">
-  <img width="1376" height="768" alt="Gemini_Generated_Image_aa1eloaa1eloaa1e" src="https://github.com/user-attachments/assets/26551b39-a60b-452f-86ec-b84f067c4379" />
+  <img width="150" height="500" alt="Gemini_Generated_Image_aa1eloaa1eloaa1e" src="https://github.com/user-attachments/assets/26551b39-a60b-452f-86ec-b84f067c4379" />
   <br>
   <small>Universidad Nacional de Loja | Carrera de Computación</small>
 </p>
