@@ -31,8 +31,6 @@ Un algoritmo se define como un conjunto ordenado, finito y preciso de instruccio
 ### 2. Pseudocódigo
 El pseudocódigo es una forma de expresar la lógica de un algoritmo utilizando un lenguaje intermedio, a medio camino entre el lenguaje humano natural y el lenguaje de programación real. Su objetivo principal es permitir que el desarrollador se centre en la solución lógica del problema sin preocuparse por las reglas sintácticas estrictas de un lenguaje específico (como C++, Java o Python).
 
----
-
 ### 3. Ejemplo de pseudocódigo en PSeInt:
 
 ### 4. Diagrama de flujo: 
