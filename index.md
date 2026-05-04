@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-web.png" width="350" alt="Logo Universidad Nacional de Loja">
-</p>
+<img width="400" height="156" alt="logo_unl" src="https://github.com/user-attachments/assets/0b5c969e-0577-42cd-b6a7-f06c446c78f0" />
+
 
 # Teoria de la Programación
 
