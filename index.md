@@ -1,26 +1,24 @@
 <p align="center">
-  <img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-web.png" width="200" alt="Logo UNL">
+  <img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-web.png" width="180" alt="Logo UNL">
 </p>
 
-# 🚀 Teoría de la Programación - Unidad 1
-> **Portafolio Digital de Aprendizaje**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Carrera-Computación-blue?style=for-the-badge&logo=github" alt="Carrera">
-  <img src="https://img.shields.io/badge/Ciclo-I%20%22A%22-green?style=for-the-badge" alt="Ciclo">
-  <img src="https://img.shields.io/badge/Ecuador-Loja-yellow?style=for-the-badge" alt="Localización">
-</p>
+# 📑 Portafolio Académico: Teoría de la Programación
+## Unidad 1: Fundamentos de Algoritmia e Implementación en Lenguaje C
 
 ---
 
-## 📋 Datos Informativos
-| Campo | Detalle |
+### 📋 Información Institucional
+> **Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables**
+
+| Atributo | Detalle Académico |
 | :--- | :--- |
-| **🏫 Institución** | Universidad Nacional de Loja |
-| **🏢 Facultad** | Energía, las Industrias y los Recursos Naturales No Renovables |
-| **👤 Estudiante** | Luis Carranza |
-| **👩‍🏫 Docente** | Ing. Lissette Geoconda López Faicán |
-| **📅 Periodo** | Marzo 2026 – Agosto 2026 |
+| **Institución** | Universidad Nacional de Loja (UNL) |
+| **Carrera** | Ingeniería en Computación |
+| **Asignatura** | Teoría de la Programación |
+| **Estudiante** | Luis Anderson Carranza Quispe |
+| **Docente** | Ing. Lissette Geoconda López Faicán |
+| **Ciclo / Paralelo** | I Ciclo "A" |
+| **Periodo Lectivo** | Marzo 2026 – Agosto 2026 |
 
 ---
 
