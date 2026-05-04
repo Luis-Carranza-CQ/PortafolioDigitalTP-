@@ -138,6 +138,7 @@ Se requiere un programa que automatice el cálculo del área de un triángulo. E
 ### 3. Diseño del Algoritmo
 #### 3.1 Pseudocódigo
 <img width="886" height="878" alt="image" src="https://github.com/user-attachments/assets/c580fac5-fc3a-428f-a443-1f1b4666ede7" />
+
 ##### Codigo en PSeInt
 ```c
 Algoritmo area_Triangulo
