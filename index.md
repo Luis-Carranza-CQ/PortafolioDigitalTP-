@@ -17,7 +17,7 @@
 
 ---
 
-## 📚 Fundamentos Teóricos
+## Contenidos
 
 ### 1. Algoritmos
 Un algoritmo se define como un conjunto ordenado, finito y preciso de instrucciones lógicas diseñadas para resolver un problema o ejecutar una tarea específica. Su funcionamiento se basa en un flujo estructurado que transforma datos iniciales (entradas) en resultados útiles (salidas) mediante la aplicación de reglas y cálculos predefinidos.
@@ -26,35 +26,31 @@ Un algoritmo se define como un conjunto ordenado, finito y preciso de instruccio
 *   **Eficiencia:** Cada paso está definido sin ambigüedades.
 •	Eficiencia: Permite procesar datos y obtener soluciones de forma sistemática y reproducible.
 
----
-
-### 2. Pseudocódigo
+### 1.1 Pseudocódigo
 El pseudocódigo es una forma de expresar la lógica de un algoritmo utilizando un lenguaje intermedio, a medio camino entre el lenguaje humano natural y el lenguaje de programación real. Su objetivo principal es permitir que el desarrollador se centre en la solución lógica del problema sin preocuparse por las reglas sintácticas estrictas de un lenguaje específico (como C++, Java o Python).
 
-### 3. Ejemplo de pseudocódigo en PSeInt:
+#### Ejemplo de pseudocódigo en PSeInt:
 
-### 4. Diagrama de flujo: 
+### 1.2 Diagrama de flujo: 
 Un diagrama de flujo es una herramienta visual que utiliza símbolos estandarizados para representar los pasos sucesivos de un proceso o algoritmo. Mientras que el pseudocódigo es una descripción narrativa, el diagrama de flujo ofrece una perspectiva geométrica que facilita la identificación de errores lógicos, bucles y bifurcaciones en el sistema.
 
-### 5. Prueba de Escritorio
+### 1.3 Prueba de Escritorio
 Una prueba de escritorio es un proceso de simulación manual en el que el desarrollador actúa como el procesador de la computadora. Consiste en seguir paso a paso las instrucciones de un algoritmo o pseudocódigo, utilizando valores de entrada arbitrarios y registrando los cambios en las variables en una tabla.
 Su objetivo principal es detectar errores de lógica, como fórmulas incorrectas, bucles infinitos o condiciones mal planteadas, que a menudo pasan desapercibidos durante la redacción del código.
 
----
-
-### 6. Lenguajes de programación 
+### 1.4 Lenguajes de programación 
 Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los humanos dar instrucciones precisas a una computadora para resolver problemas o procesar datos. Estas herramientas se clasifican principalmente por cómo traducen esas órdenes: los lenguajes compilados, como C, traducen todo el código de una sola vez antes de ejecutarlo para ganar velocidad; los interpretados, como Python, traducen y ejecutan el código línea por línea en tiempo real para ser más flexibles; mientras que lenguajes como Java usan un método híbrido que traduce el código a un formato intermedio para que pueda funcionar en cualquier dispositivo sin cambios.
 
-### 7. Ejemplo de mi pseudocódigo, pero en lenguaje C
+#### Ejemplo de mi pseudocódigo, pero en lenguaje C
 
 ---
 
-### 8. Programación por bloques
+### 4. Programación por bloques
 La programación por bloques es una forma de programar diseñada para facilitar el aprendizaje de la lógica computacional sin necesidad de escribir código manualmente. En lugar de usar texto complejo, se utilizan piezas gráficas (parecidas a bloques de construcción o rompecabezas) que se arrastran y conectan entre sí para crear instrucciones.
 
 ---
 
-### 9. Ejercicio con estructura secuencial 
+### 5. Ejercicio con estructura secuencial 
 #### Planteamiento del problema
 Se requiere un programa que automatice el cálculo del área de un triángulo. El sistema debe solicitar al usuario la base y la altura, procesar estos datos mediante la fórmula geométrica estándar y mostrar el resultado exacto en pantalla.
 #### Análisis del problema
@@ -63,7 +59,7 @@ Se requiere un programa que automatice el cálculo del área de un triángulo. E
 * **Proceso:** Aplicar la formula: área = (base*altura) / 2
 * **Salida:** Un mensaje con el valor resultante del área
 
-### 10. Diseño del Algoritmo 
+#### Diseño del Algoritmo 
 #### Pseudocódigo
 
 #### Diagrama de flujo:
