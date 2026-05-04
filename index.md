@@ -194,7 +194,7 @@ int main() {
     return 0;
 }
 ```
-### 5. Validación (prueba de escritorio)
+### 5. Validación (prueba de escritorio) 
 
 | Variable | Valor Resultante | Procedimiento Matemático Aplicado |
 | :--- | :---: | :--- |
