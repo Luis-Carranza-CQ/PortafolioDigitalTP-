@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u-D7Yh8l7T27Nn47T4N6K3Vp_8-S9j-Y_g&s" width="350" alt="Logo Universidad Nacional de Loja">
+  <img src="<img width="400" height="156" alt="logo_unl" src="https://github.com/user-attachments/assets/03e5ccab-6a18-40ac-a3c1-6cb6c8173eb5" />
+" width="350" alt="Logo Universidad Nacional de Loja">
 </p>
 
 # Teoria de la Programación
