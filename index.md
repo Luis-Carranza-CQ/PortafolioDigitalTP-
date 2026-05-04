@@ -51,7 +51,7 @@ Su objetivo principal es detectar errores de lógica, como fórmulas incorrectas
 Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los humanos dar instrucciones precisas a una computadora para resolver problemas o procesar datos. Estas herramientas se clasifican principalmente por cómo traducen esas órdenes: los lenguajes compilados, como C, traducen todo el código de una sola vez antes de ejecutarlo para ganar velocidad; los interpretados, como Python, traducen y ejecutan el código línea por línea en tiempo real para ser más flexibles; mientras que lenguajes como Java usan un método híbrido que traduce el código a un formato intermedio para que pueda funcionar en cualquier dispositivo sin cambios.
 
 ##### Ejemplo de mi pseudocódigo, pero en lenguaje C
-
+```
 #include <stdio.h>
 
 int main() {
@@ -68,6 +68,7 @@ int main() {
     // Proceso
     sueldo_semanal = sueldo_mensual / 4;
     ahorro_semanal = sueldo_semanal * 0.15;
+    
     // Calculo de ahorro anual (12 meses = 48 semanas)
     ahorro_anual = ahorro_semanal * 48;
 
@@ -80,6 +81,7 @@ int main() {
 
     return 0;
 }
+```
 
 ---
 
