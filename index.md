@@ -25,7 +25,10 @@ Un algoritmo es un conjunto **ordenado, finito y preciso** de instrucciones lóg
 *   **Precisión:** Cada paso está definido sin ambigüedades.
 *   **Eficiencia:** Permite obtener soluciones de forma sistemática.
 
-### 2. Metodologías de Diseño
+### 2. Pseudocódigo
+El pseudocódigo es una forma de expresar la lógica de un algoritmo utilizando un lenguaje intermedio, a medio camino entre el lenguaje humano natural y el lenguaje de programación real. Su objetivo principal es permitir que el desarrollador se centre en la solución lógica del problema sin preocuparse por las reglas sintácticas estrictas de un lenguaje específico (como C++, Java o Python).
+
+### 3. Metodologías de Diseño
 Para pasar de una idea al código, utilizamos herramientas intermedias:
 *   **Pseudocódigo:** Permite centrarse en la lógica sin preocuparse por la sintaxis estricta de un lenguaje real.
 *   **Diagrama de Flujo:** Perspectiva geométrica que facilita identificar errores lógicos y bucles.
