@@ -4,8 +4,6 @@
 # 🎓 Portafolio Digital de Aprendizaje - Unidad 1
 ## Carrera de Computación | Universidad Nacional de Loja
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e6ff6f69-784b-4086-81a3-9fe3720441c4" />
-
 ---
 
 ### 👤 Datos Informativos
@@ -16,23 +14,6 @@
 *   **Unidad:** 1
 *   **Docente:** Ing. Lissette Geoconda López Faicán
 *   **Periodo Académico:** Marzo 2026 – Agosto 2026
-
-
----
-
-## 🎯 Objetivo del Portafolio
-Documentar de manera técnica y estructurada el aprendizaje obtenido sobre la lógica de programación, el uso de herramientas de diseño como **PSeInt** y la implementación final en **Lenguaje C**.
-
----
-
-## 🛠️ Herramientas Utilizadas
-<p align="left">
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/badge/PSeInt-E1E1E1?style=flat-square" alt="PSeInt">
-</p>
-
 
 ---
 
