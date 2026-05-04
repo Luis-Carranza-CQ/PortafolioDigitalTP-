@@ -1,19 +1,42 @@
-# Teoria de la Programación
+<p align="center">
+  <img src="https://unl.edu.ec/sites/default/files/inline-images/logo-unl-web.png" width="200" alt="Logo UNL">
+</p>
 
-## Unidad 1
-# 🎓 Portafolio Digital de Aprendizaje - Unidad 1
-## Carrera de Computación | Universidad Nacional de Loja
+# 🚀 Teoría de la Programación - Unidad 1
+> **Portafolio Digital de Aprendizaje**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Carrera-Computación-blue?style=for-the-badge&logo=github" alt="Carrera">
+  <img src="https://img.shields.io/badge/Ciclo-I%20%22A%22-green?style=for-the-badge" alt="Ciclo">
+  <img src="https://img.shields.io/badge/Ecuador-Loja-yellow?style=for-the-badge" alt="Localización">
+</p>
 
 ---
 
-### 👤 Datos Informativos
-> **Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables**
+## 📋 Datos Informativos
+| Campo | Detalle |
+| :--- | :--- |
+| **🏫 Institución** | Universidad Nacional de Loja |
+| **🏢 Facultad** | Energía, las Industrias y los Recursos Naturales No Renovables |
+| **👤 Estudiante** | Luis Carranza |
+| **👩‍🏫 Docente** | Ing. Lissette Geoconda López Faicán |
+| **📅 Periodo** | Marzo 2026 – Agosto 2026 |
 
-*   **Estudiante:** Luis Carranza
-*   **Ciclo/Paralelo:** I “A”
-*   **Unidad:** 1
-*   **Docente:** Ing. Lissette Geoconda López Faicán
-*   **Periodo Académico:** Marzo 2026 – Agosto 2026
+---
+
+## 🎯 Objetivo del Portafolio
+Documentar de manera técnica y estructurada el aprendizaje obtenido sobre la lógica de programación, el uso de herramientas de diseño como **PSeInt** y la implementación final en **Lenguaje C**.
+
+---
+
+## 🛠️ Herramientas Utilizadas
+<p align="left">
+  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/PSeInt-E1E1E1?style=flat-square" alt="PSeInt">
+</p>
+
 
 ---
 
