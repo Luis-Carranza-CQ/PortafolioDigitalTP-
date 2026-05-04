@@ -30,6 +30,7 @@ Un algoritmo se define como un conjunto ordenado, finito y preciso de instruccio
 El pseudocódigo es una forma de expresar la lógica de un algoritmo utilizando un lenguaje intermedio, a medio camino entre el lenguaje humano natural y el lenguaje de programación real. Su objetivo principal es permitir que el desarrollador se centre en la solución lógica del problema sin preocuparse por las reglas sintácticas estrictas de un lenguaje específico (como C++, Java o Python).
 
 ##### Ejemplo de pseudocódigo en PSeInt:
+<img width="886" height="665" alt="image" src="https://github.com/user-attachments/assets/ffb67e0d-67db-4629-9608-72790b6ca7a3" />
 
 #### 1.2 Diagrama de flujo: 
 Un diagrama de flujo es una herramienta visual que utiliza símbolos estandarizados para representar los pasos sucesivos de un proceso o algoritmo. Mientras que el pseudocódigo es una descripción narrativa, el diagrama de flujo ofrece una perspectiva geométrica que facilita la identificación de errores lógicos, bucles y bifurcaciones en el sistema.
