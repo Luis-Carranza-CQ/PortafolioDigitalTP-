@@ -167,7 +167,8 @@ FinAlgoritmo
 
 
 ### 4. Codificación (código fuente)
-<img width="791" height="951" alt="image" src="https://github.com/user-attachments/assets/f7cff011-3d9b-43a8-b017-8fc124b76aa4" />
+<img width="791" height="951" alt="image" src="https://github.com/user-attachments/assets/9b1e18a0-3f05-4526-adaf-43b9734e0f39" />
+
 
 #### Codigo en C 
 ```
