@@ -45,45 +45,45 @@ Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a
 
 ---
 
-### 4. Programación por bloques
+### 2. Programación por bloques
 La programación por bloques es una forma de programar diseñada para facilitar el aprendizaje de la lógica computacional sin necesidad de escribir código manualmente. En lugar de usar texto complejo, se utilizan piezas gráficas (parecidas a bloques de construcción o rompecabezas) que se arrastran y conectan entre sí para crear instrucciones.
 
 ---
 
-### 5. Ejercicio con estructura secuencial 
-#### Planteamiento del problema
+## Ejercicio con estructura secuencial (lenguaje dado en clase)
+
+### 1. Planteamiento del problema
 Se requiere un programa que automatice el cálculo del área de un triángulo. El sistema debe solicitar al usuario la base y la altura, procesar estos datos mediante la fórmula geométrica estándar y mostrar el resultado exacto en pantalla.
-#### Análisis del problema
+### 2. Análisis del problema
 * **Variables:** Se utilizan variables de tipo float en C para permitir el uso de decimales
 * **Entrada:** base y altura (Números reales/decimales)
 * **Proceso:** Aplicar la formula: área = (base*altura) / 2
 * **Salida:** Un mensaje con el valor resultante del área
 
-#### Diseño del Algoritmo 
-#### Pseudocódigo
+### 3. Diseño del Algoritmo 
+#### 3.1 Diagrama de flujo:
 
-#### Diagrama de flujo:
+#### 3.2 Pseudocódigo
 
-#### Codificación en lenguaje C
+### 4. Codificación en lenguaje C
 
-#### Prueba de Escritorio (Validación)
+### 5. Validación (prueba de escritorio)
 
-### 11. Principales dificultades de los contenidos 
+---
+
+## Principales dificultades y reflexión crítica en la aplicación de los contenidos.
+### 1. Principales dificultades de los contenidos 
 Lo más difícil es que C es mucho más estricto con las reglas: si olvidas un punto y coma ( ; ) o una llave ({ }), el programa no funciona. También es confuso aprender a usar códigos como %f o el símbolo & para guardar datos en la memoria, algo que en PSeInt no era necesario. Por último, está la pelea con el antivirus o Windows, que a veces bloquea tus archivos .exe y no te deja ver si tu código quedó bien.
 
----
-
-### 12. Reflexión critica en la aplicación
+### 2. Reflexión critica en la aplicación
 Programar en C me enseñó que la lógica no lo es todo; la precisión técnica es vital. A diferencia de PSeInt, aquí un pequeño error de escritura detiene todo. Esta experiencia me ayudó a ser más ordenado y a entender que, como ingeniero, debo dominar tanto la resolución de problemas como el funcionamiento real de las herramientas y la seguridad de la computadora.
 
----
-
-### 13. Conclusión
+### 3. Conclusión
 En conclusión, el desarrollo de este programa demuestra que la programación es un proceso que va desde la lógica básica hasta la implementación técnica real. Lograr que el código pase de un simulador como PSeInt a un lenguaje profesional como C requiere no solo saber resolver el problema matemático, sino también aprender a configurar el entorno de trabajo y superar los bloqueos de seguridad del sistema. Esta práctica es fundamental para entender cómo se construye el software de manera estructurada y funcional.
 
 ---
 
-### 14. Bibliografía
+## Bibliografía
 
 
 ## Unidad 3
