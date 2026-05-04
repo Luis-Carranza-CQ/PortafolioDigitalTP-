@@ -20,54 +20,60 @@
 ## 📚 Fundamentos Teóricos
 
 ### 1. Algoritmos
-Un algoritmo es un conjunto **ordenado, finito y preciso** de instrucciones lógicas diseñadas para resolver un problema específico. Sus pilares fundamentales son:
-*   **Finitud:** Posee un inicio y un fin determinados.
+Un algoritmo se define como un conjunto ordenado, finito y preciso de instrucciones lógicas diseñadas para resolver un problema o ejecutar una tarea específica. Su funcionamiento se basa en un flujo estructurado que transforma datos iniciales (entradas) en resultados útiles (salidas) mediante la aplicación de reglas y cálculos predefinidos.
+*   **Finitud:** Posee un inicio y un fin determinados tras un número exacto de pasos.
 *   **Precisión:** Cada paso está definido sin ambigüedades.
-*   **Eficiencia:** Permite obtener soluciones de forma sistemática.
+*   **Eficiencia:** Cada paso está definido sin ambigüedades.
+•	Eficiencia: Permite procesar datos y obtener soluciones de forma sistemática y reproducible.
 
 ### 2. Pseudocódigo
 El pseudocódigo es una forma de expresar la lógica de un algoritmo utilizando un lenguaje intermedio, a medio camino entre el lenguaje humano natural y el lenguaje de programación real. Su objetivo principal es permitir que el desarrollador se centre en la solución lógica del problema sin preocuparse por las reglas sintácticas estrictas de un lenguaje específico (como C++, Java o Python).
 
-### 3. Metodologías de Diseño
-Para pasar de una idea al código, utilizamos herramientas intermedias:
-*   **Pseudocódigo:** Permite centrarse en la lógica sin preocuparse por la sintaxis estricta de un lenguaje real.
-*   **Diagrama de Flujo:** Perspectiva geométrica que facilita identificar errores lógicos y bucles.
-*   **Prueba de Escritorio:** Proceso de simulación manual para detectar fallos en fórmulas o condiciones antes de programar.
+### 3. Ejemplo de pseudocódigo en PSeInt:
 
+### 4. Diagrama de flujo: 
+Un diagrama de flujo es una herramienta visual que utiliza símbolos estandarizados para representar los pasos sucesivos de un proceso o algoritmo. Mientras que el pseudocódigo es una descripción narrativa, el diagrama de flujo ofrece una perspectiva geométrica que facilita la identificación de errores lógicos, bucles y bifurcaciones en el sistema.
+
+### 5. Prueba de Escritorio
+Una prueba de escritorio es un proceso de simulación manual en el que el desarrollador actúa como el procesador de la computadora. Consiste en seguir paso a paso las instrucciones de un algoritmo o pseudocódigo, utilizando valores de entrada arbitrarios y registrando los cambios en las variables en una tabla.
+Su objetivo principal es detectar errores de lógica, como fórmulas incorrectas, bucles infinitos o condiciones mal planteadas, que a menudo pasan desapercibidos durante la redacción del código.
+
+### 6. Lenguajes de programación 
+Un lenguaje de programación es un conjunto de reglas y símbolos que permiten a los humanos dar instrucciones precisas a una computadora para resolver problemas o procesar datos. Estas herramientas se clasifican principalmente por cómo traducen esas órdenes: los lenguajes compilados, como C, traducen todo el código de una sola vez antes de ejecutarlo para ganar velocidad; los interpretados, como Python, traducen y ejecutan el código línea por línea en tiempo real para ser más flexibles; mientras que lenguajes como Java usan un método híbrido que traduce el código a un formato intermedio para que pueda funcionar en cualquier dispositivo sin cambios.
+
+### 7. Ejemplo de mi pseudocódigo, pero en lenguaje C
+
+### 8. Programación por bloques
+La programación por bloques es una forma de programar diseñada para facilitar el aprendizaje de la lógica computacional sin necesidad de escribir código manualmente. En lugar de usar texto complejo, se utilizan piezas gráficas (parecidas a bloques de construcción o rompecabezas) que se arrastran y conectan entre sí para crear instrucciones.
+
+### 9. Ejercicio con estructura secuencial 
+#### Planteamiento del problema
+Se requiere un programa que automatice el cálculo del área de un triángulo. El sistema debe solicitar al usuario la base y la altura, procesar estos datos mediante la fórmula geométrica estándar y mostrar el resultado exacto en pantalla.
+#### Análisis del problema
+* **Variables:** Se utilizan variables de tipo float en C para permitir el uso de decimales
+* **Entrada:** base y altura (Números reales/decimales)
+* **Proceso:** Aplicar la formula: área = (base*altura) / 2
+* **Salida:** Un mensaje con el valor resultante del área
+
+### 10. Diseño del Algoritmo 
+#### Pseudocódigo
+
+#### Diagrama de flujo:
+
+#### Codificación en lenguaje C
+
+#### Prueba de Escritorio (Validación)
+
+### 11. Principales dificultades de los contenidos 
+Lo más difícil es que C es mucho más estricto con las reglas: si olvidas un punto y coma ( ; ) o una llave ({ }), el programa no funciona. También es confuso aprender a usar códigos como %f o el símbolo & para guardar datos en la memoria, algo que en PSeInt no era necesario. Por último, está la pelea con el antivirus o Windows, que a veces bloquea tus archivos .exe y no te deja ver si tu código quedó bien.
 ---
+### 12. Reflexión critica en la aplicación
+Programar en C me enseñó que la lógica no lo es todo; la precisión técnica es vital. A diferencia de PSeInt, aquí un pequeño error de escritura detiene todo. Esta experiencia me ayudó a ser más ordenado y a entender que, como ingeniero, debo dominar tanto la resolución de problemas como el funcionamiento real de las herramientas y la seguridad de la computadora.
+---
+### 13. Conclusión
+En conclusión, el desarrollo de este programa demuestra que la programación es un proceso que va desde la lógica básica hasta la implementación técnica real. Lograr que el código pase de un simulador como PSeInt a un lenguaje profesional como C requiere no solo saber resolver el problema matemático, sino también aprender a configurar el entorno de trabajo y superar los bloqueos de seguridad del sistema. Esta práctica es fundamental para entender cómo se construye el software de manera estructurada y funcional.
+---
+### 14. Bibliografía
 
-## 💻 Aplicación Práctica: Estructura Secuencial
-
-### Planteamiento del Problema
-Diseñar un sistema que automatice el cálculo del **área de un triángulo** solicitando al usuario la base y la altura.
-
-### Codificación en Lenguaje C
-Utilizamos variables de tipo `float` para garantizar precisión con números decimales.
-
-```c
-#include <stdio.h>
-
-int main() {
-    // Definición de Variables
-    float base, altura, area;
-
-    // Entrada de Datos
-    printf("Ingrese la base: ");
-    scanf("%f", &base);
-
-    printf("Ingrese la altura: ");
-    scanf("%f", &altura);
-
-    // Proceso: área = (base * altura) / 2
-    area = (base * altura) / 2;
-
-    // Salida de Resultados
-    printf("El area calculada es: %.2f\n", area);
-
-    return 0;
-}
-
-
-## Unidad 2
 
 ## Unidad 3
