@@ -235,7 +235,10 @@ Para el desarrollo técnico de este portafolio, se han consultado las siguientes
   <small>Universidad Nacional de Loja | Carrera de Computación</small>
 </p>
 
+---
+ 
+## Unidad 2
 
-
+---
 
 ## Unidad 3
