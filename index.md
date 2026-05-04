@@ -1,9 +1,5 @@
 <p align="center">
-  <a href="https://www.unl.edu.ec/innovatec">
-    <img src="https://www.unl.edu.ec/sites/default/files/inline-images/logo-unl-web.png" width="250" alt="Logo Innovatec UNL">
-  </a>
-  <br>
-  <b>Hacia la Transformación Digital - Innovatec UNL</b>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6u-D7Yh8l7T27Nn47T4N6K3Vp_8-S9j-Y_g&s" width="350" alt="Logo Universidad Nacional de Loja">
 </p>
 
 # Teoria de la Programación
