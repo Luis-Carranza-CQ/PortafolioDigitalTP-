@@ -32,6 +32,36 @@ El pseudocódigo es una forma de expresar la lógica de un algoritmo utilizando 
 ##### Ejemplo de pseudocódigo en PSeInt:
 <img width="886" height="665" alt="image" src="https://github.com/user-attachments/assets/ffb67e0d-67db-4629-9608-72790b6ca7a3" />
 
+##### Codigo en PseInt
+```
+Algoritmo AhorroAnual
+	//Variables
+	Definir sueldo_mensual, sueldo_semanal, ahorro_semanal, ahorro_anual Como Real;
+	
+	//Entrada
+	Escribir "------------------------------------------"
+	Escribir "$$$-CALCULO DE AHORRO SEMANAL Y ANUAL-$$$"
+	Escribir "------------------------------------------"
+	Escribir "Ingrese su sueldo mensual ($):";
+	Leer sueldo_mensual;
+	
+	//Proceso
+	sueldo_semanal=sueldo_mensual/4;
+	ahorro_semanal=sueldo_semanal*0.15;
+	
+	//Calculo de ahorro anual (12 meses = 48 semanas)
+	ahorro_anual = ahorro_semanal*48;
+	
+	//Salida
+	Escribir "-------------------------------------------"
+	Escribir "SU AHORRO SEMANAL ES DE: ", ahorro_semanal "$"
+	Escribir "------------------------------------------";
+	Escribir "SU AHORRO ANUAL ES DE: ", ahorro_anual "$"
+	Escribir "------------------------------------------"
+	
+FinAlgoritmo
+```
+
 #### 1.2 Diagrama de flujo: 
 Un diagrama de flujo es una herramienta visual que utiliza símbolos estandarizados para representar los pasos sucesivos de un proceso o algoritmo. Mientras que el pseudocódigo es una descripción narrativa, el diagrama de flujo ofrece una perspectiva geométrica que facilita la identificación de errores lógicos, bucles y bifurcaciones en el sistema.
 <img width="758" height="1239" alt="image" src="https://github.com/user-attachments/assets/f1395712-6eb4-44df-ac6e-d0a3b5999a64" />
