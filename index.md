@@ -232,7 +232,7 @@ Para el desarrollo técnico de este portafolio, se han consultado las siguientes
 
 ---
 <p align="center">
-  <img src="<img width="400" height="156" alt="logo_unl" src="https://github.com/user-attachments/assets/109e7ad7-16b2-4769-a256-fc70a614eaaf" />
+  <img src="<img width="400" height="156" alt="logo_unl" src="https://github.com/user-attachments/assets/109e7ad7-16b2-4769-a256-fc70a614eaaf" /
 " width="150">
   <br>
   <small>Universidad Nacional de Loja | Carrera de Computación</small>
