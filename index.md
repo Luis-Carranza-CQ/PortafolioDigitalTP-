@@ -171,7 +171,7 @@ FinAlgoritmo
 
 
 #### Codigo en C 
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -194,6 +194,7 @@ int main() {
     return 0;
 }
 ```
+
 ### 5. Validación (prueba de escritorio) 
 
 | Variable | Valor Resultante | Procedimiento Matemático Aplicado |
