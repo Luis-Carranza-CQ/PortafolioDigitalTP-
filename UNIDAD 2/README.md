@@ -33,7 +33,7 @@ FinSi
 
 ### Diagrama de Flujo
 
-![Condicional Simple](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222852.png?raw=true)
+![Condicional Simple](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/Condicional%20Simple.png)
 
 ---
 
@@ -53,7 +53,7 @@ FinSi
 
 ### Diagrama de Flujo
 
-![Condicional Compuesta](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222901.png?raw=true)
+![Condicional Compuesta](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/Condicional%20Doble.png)
 
 ---
 
@@ -73,7 +73,7 @@ FinSegun
 
 ### Diagrama de Flujo
 
-![Condicional Múltiple](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222911.png?raw=true)
+![Condicional Múltiple](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/Condicional%20Multiple.png)
 
 ---
 
@@ -96,7 +96,7 @@ FinMientras
 
 ### Diagrama de Flujo
 
-![While](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222921.png?raw=true)
+![While](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/DiagramaF.%20While.png)
 
 ---
 
@@ -114,7 +114,7 @@ Hasta Que condición
 
 ### Diagrama de Flujo
 
-![Repetir Hasta](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222930.png?raw=true)
+![Repetir Hasta](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/DiagramaF.%20Do%20While.png)
 
 ---
 
@@ -132,7 +132,7 @@ FinPara
 
 ### Diagrama de Flujo
 
-![For](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222939.png?raw=true)
+![For](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/DiagramaF.%20FOR.png)
 
 ---
 
@@ -171,7 +171,7 @@ Por cada cliente se ingresa el total de su compra:
 
 ### Diagrama de Flujo
 
-![Ejercicio Integrador](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Gemini_Generated_Image_2tmwls2tmwls2tmw.png?raw=true)
+![Ejercicio Integrador](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/Diagrama%20de%20flujo.png)
 
 ---
 
@@ -232,7 +232,7 @@ Supongamos que se procesan **2 clientes**.
 | 1       | 120.00 | Sí             | 18.00     | 102.00     |
 | 2       | 50.00  | No             | 0.00      | 50.00      |
 
-![For](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20211054.png?raw=true)
+![Validación](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/5d097b6ed99b50f2283837d46c542b5169f6a328/UNIDAD%202/Imagenes%20U2/Prueba%20de%20escritorio.png)
 
 ### Resultado esperado
 
