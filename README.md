@@ -9,7 +9,7 @@
 ---
 
 ### 📑 Índice General del Portafolio
-Usa la siguiente tabla para navegar de forma rápida y limpia entre las diferentes unidades de la materia:
+Usa la Administrative Tabla para navegar de forma rápida y limpia entre las diferentes unidades de la materia:
 
 | Unidad | Contenido Académico | Estado | Enlace Directo |
 | :---: | :--- | :---: | :---: |
@@ -20,13 +20,34 @@ Usa la siguiente tabla para navegar de forma rápida y limpia entre las diferent
 ---
 
 ### 📖 Bibliografía General (Normas IEEE)
-*Referencias de los recursos técnicos y didácticos utilizados en la fundamentación de las unidades:*
+*Haz clic en las secciones desplegables para explorar los recursos y fundamentos técnicos utilizados:*
 
-* [1] EBAC, "¿Qué es el lenguaje C? Definición y para qué sirve", *Blog de EBAC*, 2024. [En línea]. Disponible en: https://ebac.mx/blog/que-es-lenguaje-c
-* [2] Profile Software Solutions, "¿Qué es el pseudocódigo? Definición, características y ejemplos", *Profile Blog*, 2023. [En línea]. Disponible en: https://profile.es/blog/que-es-el-pseudocodigo/
-* [3] Secretaría de Innovación Pública, "Programación por bloques", *Argentina.gob.ar*, 2024. [En línea]. Disponible en: https://www.argentina.gob.ar/jefatura/innovacion-publica/
-* [4] Universidad de Guanajuato, "Clase digital 9: Secuencias de control (if, if-else, if-else-if, switch-case)", *Recursos Educativos Abiertos (REA)*, 2022. [En línea]. Disponible en: https://blogs.ugto.mx/rea/clase-digital-9-secuencias-de-control-if-if-else-if-else-if-switch-case/
-* [5] Galanista Programando, "Estructuras repetitivas", *Galanista Programando Blog*, 2017. [En línea]. Disponible en: https://galanistaprogramando.wordpress.com/estructuras-repetitivas/
+<details>
+<summary><b>🚀 Fundamentos y Lenguaje C (Unidad 1)</b></summary>
+<br>
+
+*   **`[1]`** 🏢 **EBAC**, "¿Qué es el lenguaje C? Definición y para qué sirve", *Blog de EBAC*, 2024. 
+    > 🔗 **Disponible en:** [ebac.mx/blog/que-es-lenguaje-c](https://ebac.mx/blog/que-es-lenguaje-c)
+    
+*   **`[2]`** 💻 **Profile Software Solutions**, "¿Qué es el pseudocódigo? Definición, características y ejemplos", *Profile Blog*, 2023. 
+    > 🔗 **Disponible en:** [profile.es/blog/que-es-el-pseudocodigo](https://profile.es/blog/que-es-el-pseudocodigo/)
+    
+*   **`[3]`** 🏛️ **Secretaría de Innovación Pública**, "Programación por bloques", *Argentina.gob.ar*, 2024. 
+    > 🔗 **Disponible en:** [argentina.gob.ar/innovacion-publica](https://www.argentina.gob.ar/jefatura/innovacion-publica/)
+
+</details>
+
+<details>
+<summary><b>🔄 Estructuras de Control y Bucles (Unidad 2)</b></summary>
+<br>
+
+*   **`[4]`** 🎓 **Universidad de Guanajuato**, "Clase digital 9: Secuencias de control (if, if-else, if-else-if, switch-case)", *Recursos Educativos Abiertos (REA)*, 2022. 
+    > 🔗 **Disponible en:** [blogs.ugto.mx/rea/clase-digital-9...](https://blogs.ugto.mx/rea/clase-digital-9-secuencias-de-control-if-if-else-if-else-if-switch-case/)
+    
+*   **`[5]`** ✍️ **Galanista Programando**, "Estructuras repetitivas", *Galanista Programando Blog*, 2017. 
+    > 🔗 **Disponible en:** [galanistaprogramando.wordpress.com...](https://galanistaprogramando.wordpress.com/estructuras-repetitivas/)
+
+</details>
 
 ---
 
