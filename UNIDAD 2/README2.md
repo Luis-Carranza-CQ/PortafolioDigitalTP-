@@ -1,4 +1,4 @@
-[⬅ Volver a la Unidad 1](/README1.md)
+[🏠 Menú Principal](../README.md) | [← Volver a la Unidad 1](../UNIDAD%201/README1.md)
 # 📗 Unidad 2 - Estructuras Condicionales y Repetitivas
 
 > Desarrollo de los conceptos fundamentales de estructuras condicionales y repetitivas utilizadas en la construcción de algoritmos.
