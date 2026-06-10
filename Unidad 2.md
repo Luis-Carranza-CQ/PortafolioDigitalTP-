@@ -33,7 +33,7 @@ FinSi
 
 ### Diagrama de Flujo
 
-![Condicional Simple](file:///C:/Users/Luisa/OneDrive/Escritorio/Gemini_Generated_Image_2tmwls2tmwls2tmw.png)
+![Condicional Simple](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222852.png?raw=true)
 
 ---
 
@@ -53,7 +53,7 @@ FinSi
 
 ### Diagrama de Flujo
 
-![Condicional Compuesta](img/condicional-compuesta.png)
+![Condicional Compuesta](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222901.png?raw=true)
 
 ---
 
@@ -73,7 +73,7 @@ FinSegun
 
 ### Diagrama de Flujo
 
-![Condicional Múltiple](img/condicional-multiple.png)
+![Condicional Múltiple](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222911.png?raw=true)
 
 ---
 
@@ -96,7 +96,7 @@ FinMientras
 
 ### Diagrama de Flujo
 
-![While](img/while.png)
+![While](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222921.png?raw=true)
 
 ---
 
@@ -114,7 +114,7 @@ Hasta Que condición
 
 ### Diagrama de Flujo
 
-![Repetir Hasta](img/repetir-hasta.png)
+![Repetir Hasta](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222930.png?raw=true)
 
 ---
 
@@ -132,7 +132,7 @@ FinPara
 
 ### Diagrama de Flujo
 
-![For](img/for.png)
+![For](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20222939.png?raw=true)
 
 ---
 
@@ -171,13 +171,55 @@ Por cada cliente se ingresa el total de su compra:
 
 ### Diagrama de Flujo
 
-![Ejercicio Integrador](img/ejercicio-integrador.png)
+![Ejercicio Integrador](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Gemini_Generated_Image_2tmwls2tmwls2tmw.png?raw=true)
 
 ---
 
 ## Codificación
 
-![Codificación](img/codificacion.png)
+```text
+#include <stdio.h>
+
+int main() {
+    // Declaración de variables
+    int n, i;
+    float compra, descuento, pago_final;
+    float total_tienda = 0.0; // Mi acumulador para el total
+
+    printf("--- SISTEMA DE VENTAS ---\n");
+    printf("Ingrese la cantidad de clientes a procesar: ");
+    scanf("%d", &n);
+
+    // Mi estructura repetitiva (un ciclo For)
+    for (i = 1; i <= n; i++) {
+        printf("\n--- Cliente %d ---\n", i);
+        printf("Ingrese el monto de la compra: $");
+        scanf("%f", &compra);
+        
+        // Mi estructura condicional (un If-Else)
+        if (compra > 100) {
+            descuento = compra * 0.15;
+            printf("Felicidades Aplica un 15%% de descuento.\n");
+        } else {
+            descuento = 0.0;
+            printf("No aplica descuento.\n");
+        }
+        
+        // Calculo lo que paga este cliente y lo sumo al total de la tienda
+        pago_final = compra - descuento;
+        total_tienda = total_tienda + pago_final; 
+        
+        printf("Total a pagar por este cliente: $%.2f\n", pago_final);
+    }
+
+    // Al salir del ciclo, muestro el resultado final
+    printf("\n=========================================\n");
+    printf("Monto total recaudado por la tienda: $%.2f\n", total_tienda);
+    printf("=========================================\n");
+
+    return 0;
+}
+```
 
 ---
 
@@ -189,6 +231,8 @@ Supongamos que se procesan **2 clientes**.
 | ------- | ------ | -------------- | --------- | ---------- |
 | 1       | 120.00 | Sí             | 18.00     | 102.00     |
 | 2       | 50.00  | No             | 0.00      | 50.00      |
+
+![For](https://github.com/Luis-Carranza-CQ/PortafolioDigitalTP-/blob/main/Captura%20de%20pantalla%202026-06-09%20211054.png?raw=true)
 
 ### Resultado esperado
 
