@@ -9,7 +9,7 @@
 ---
 
 ### 📑 Índice General del Portafolio
-Usa la Administrative Tabla para navegar de forma rápida y limpia entre las diferentes unidades de la materia:
+Usa la siguiente tabla para navegar de forma rápida y limpia entre las diferentes unidades de la materia:
 
 | Unidad | Contenido Académico | Estado | Enlace Directo |
 | :---: | :--- | :---: | :---: |
@@ -48,6 +48,21 @@ Usa la Administrative Tabla para navegar de forma rápida y limpia entre las dif
     > 🔗 **Disponible en:** [galanistaprogramando.wordpress.com...](https://galanistaprogramando.wordpress.com/estructuras-repetitivas/)
 
 </details>
+
+---
+
+### 🤖 Declaración de Uso Ético de Inteligencia Artificial
+
+> [!IMPORTANT]
+> **Compromiso de Honestidad Académica**
+>
+> En cumplimiento con los estándares éticos universitarios, se declara que este portafolio digital incluye asistencia de herramientas de Inteligencia Artificial bajo un enfoque estrictamente técnico y de soporte, delimitado a las siguientes actividades:
+> 
+> *   **Investigación Técnica:** Consulta sobre comandos, flujos de trabajo y estructuración avanzada en la plataforma GitHub.
+> *   **Diseño de Interfaz:** Maquetación, organización visual y estilización de la documentación utilizando sintaxis y etiquetas del lenguaje **Markdown**.
+> *   **Calidad del Texto:** Revisión, corrección ortográfica y optimización gramatical de los contenidos redactados por el estudiante.
+> 
+> *Nota: Todo el contenido conceptual de las unidades, códigos lógicos de programación, diagramas de flujo y pruebas de escritorio son de autoría intelectual y desarrollo propio del estudiante.*
 
 ---
 
