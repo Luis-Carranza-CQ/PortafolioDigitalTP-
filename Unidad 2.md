@@ -33,8 +33,7 @@ FinSi
 
 ### Diagrama de Flujo
 
-![Condicional Simple](<img width="394" height="332" alt="image" src="https://github.com/user-attachments/assets/badaaf7d-389d-45b8-a007-e6730a73388d" />
-)
+![Condicional Simple](file:///C:/Users/Luisa/OneDrive/Escritorio/Gemini_Generated_Image_2tmwls2tmwls2tmw.png)
 
 ---
 
