@@ -1,4 +1,6 @@
-[🏠 Menú Principal](../README.md) | [← Volver a la Unidad 1](../UNIDAD%201/README1.md)
+<a href="../UNIDAD%201/README1.md"><img src="https://img.shields.io/badge/%E2%86%90%20Unidad%201-blueviolet?style=for-the-badge" alt="Volver"></a> <a href="../README.md"><img src="https://img.shields.io/badge/%F0%9F%8F%A0%20Men%C3%BA%20Principal-blue?style=for-the-badge" alt="Menú"></a> <a href="../UNIDAD%203/README3.md"><img src="https://img.shields.io/badge/Unidad%203%20%E2%86%92-orange?style=for-the-badge" alt="Siguiente"></a>
+
+---
 # 📗 Unidad 2 - Estructuras Condicionales y Repetitivas
 
 > Desarrollo de los conceptos fundamentales de estructuras condicionales y repetitivas utilizadas en la construcción de algoritmos.
