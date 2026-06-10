@@ -259,4 +259,4 @@ Aprender sobre estructuras condicionales y repetitivas permitió comprender cóm
 
 ---
 
-[⬅ Volver al Portafolio Principal](/index.md)
+[⬅ Volver al Portafolio Principal](/README.md)
