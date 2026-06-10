@@ -1,4 +1,6 @@
-[⬅ Volver al Portafolio Principal](/README.md)
+<a href="../README.md"><img src="https://img.shields.io/badge/%F0%9F%8F%A0%20Men%C3%BA%20Principal-blue?style=for-the-badge" alt="Menú"></a> <a href="../UNIDAD%202/README2.md"><img src="https://img.shields.io/badge/Siguiente%20Unidad%20%E2%86%92-darkgreen?style=for-the-badge" alt="Siguiente"></a>
+
+---
 # Unidad 1
 # 🎓 Portafolio Digital de Aprendizaje - Unidad 1
 ## Carrera de Computación | Universidad Nacional de Loja
