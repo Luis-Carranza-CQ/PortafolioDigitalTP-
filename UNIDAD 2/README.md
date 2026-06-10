@@ -177,7 +177,7 @@ Por cada cliente se ingresa el total de su compra:
 
 ## Codificación
 
-```text
+```c
 #include <stdio.h>
 
 int main() {
