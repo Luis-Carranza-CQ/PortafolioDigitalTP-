@@ -1,6 +1,4 @@
-# Teoria de la Programación
-
-## Unidad 1
+# Unidad 1
 # 🎓 Portafolio Digital de Aprendizaje - Unidad 1
 ## Carrera de Computación | Universidad Nacional de Loja
 
@@ -219,26 +217,3 @@ Programar en C me enseñó que la lógica no lo es todo; la precisión técnica 
 En conclusión, el desarrollo de este programa demuestra que la programación es un proceso que va desde la lógica básica hasta la implementación técnica real. Lograr que el código pase de un simulador como PSeInt a un lenguaje profesional como C requiere no solo saber resolver el problema matemático, sino también aprender a configurar el entorno de trabajo y superar los bloqueos de seguridad del sistema. Esta práctica es fundamental para entender cómo se construye el software de manera estructurada y funcional.
 
 ---
-
-## Bibliografía
-
-Para el desarrollo técnico de este portafolio, se han consultado las siguientes fuentes de autoridad en el ámbito de la computación y la algoritmia:
-
-*   **[1]** EBAC, "¿Qué es el lenguaje C? Definición y para qué sirve", *Blog de EBAC*, 2024. [En línea]. Disponible en: [https://ebac.mx/blog/que-es-lenguaje-c](https://ebac.mx/blog/que-es-lenguaje-c)
-*   **[2]** Profile Software Solutions, "¿Qué es el pseudocódigo? Definición, características y ejemplos", *Profile Blog*, 2023. [En línea]. Disponible en: [https://profile.es/blog/que-es-el-pseudocodigo/](https://profile.es/blog/que-es-el-pseudocodigo/)
-*   **[3]** Secretaría de Innovación Pública, "Programación por bloques", *Argentina.gob.ar*, 2024. [En línea]. Disponible en: [https://www.argentina.gob.ar/jefatura/innovacion-publica/...](https://www.argentina.gob.ar/jefatura/innovacion-publica/gobierno-abierto-y-pais-digital/paisdigital/puntos/herramientas/Programaci%C3%B3n-por-bloques)
-
----
-<p align="center">
-  <img width="400" height="200" alt="Gemini_Generated_Image_aa1eloaa1eloaa1e" src="https://github.com/user-attachments/assets/26551b39-a60b-452f-86ec-b84f067c4379" />
-  <br>
-  <small>Universidad Nacional de Loja | Carrera de Computación</small>
-</p>
-
----
- 
-## Unidad 2
-
----
-
-## Unidad 3
