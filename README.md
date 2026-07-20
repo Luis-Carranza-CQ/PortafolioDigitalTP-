@@ -49,6 +49,24 @@ Usa la siguiente tabla para navegar de forma rápida y limpia entre las diferent
 
 </details>
 
+<details>
+<summary><b>📦 Modularidad y Arreglos en C (Unidad 3)</b></summary>
+<br>
+
+*   **`[6]`** 🏢 **F. J. Cevallos**, "Unidad 5: Programación modular en C", *Scribd*, 2021. 
+    > 🔗 **Disponible en:** [es.scribd.com/document/2892760...](https://es.scribd.com/document/2892760/Unidad-5-Programacion-modular-en-C)
+    
+*   **`[7]`** 💻 **Departamento de Informática y Sistemas**, "Programación Modular y Funciones en C", *Universidad de Las Palmas de Gran Canaria (ULPGC)*, 2022. 
+    > 🔗 **Disponible en:** [sopa.dis.ulpgc.es/diplomatura...](https://sopa.dis.ulpgc.es/diplomatura/practicas9798/modular2.html)
+    
+*   **`[8]`** 🛠️ **R. Ochoa**, "Manual de Programación en Lenguaje C: Funciones", *Facultad de Ingeniería Eléctrica, Universidad Michoacana de San Nicolás de Hidalgo (UMSNH)*, 2023. 
+    > 🔗 **Disponible en:** [lc.fie.umich.mx/~rochoa/Manuales...](https://lc.fie.umich.mx/~rochoa/Manuales/C/MANUAL/node6.html)
+
+*   **`[9]`** 📊 **A. Gómez**, "Algoritmos y Estructuras de Datos: Arreglos", *Scribd*, 2020. 
+    > 🔗 **Disponible en:** [es.scribd.com/document/287626926...](https://es.scribd.com/document/287626926/ALGORITMOS-ARREGLOS)
+
+</details>
+
 ---
 
 ### 🤖 Declaración de Uso Ético de Inteligencia Artificial
