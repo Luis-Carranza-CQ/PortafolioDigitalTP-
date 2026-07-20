@@ -121,7 +121,7 @@ void mostrarResultado(int original, int duplicado) {
 ### ▶️ Ejecución del Código
 
 <p align="center">
-  <img src="ImagenesU3/pase_por_valor_ejecucion.png" alt="Ejecución Pase por Valor" width="750">
+  <img width="560" height="216" alt="Captura de pantalla 2026-07-19 212428" src="https://github.com/user-attachments/assets/b672dc9f-314e-45f5-a134-35fed32a555d" />
 </p>
 
 ### 📝 Explicación del Código
@@ -157,7 +157,7 @@ Al conocer la ubicación exacta del dato en el hardware, cualquier cambio que re
 ### 💻 Diagrama
 
 <p align="center">
-  <img src="ImagenesU3/pase_por_referencia_diagrama.png" alt="Diagrama de Pase por Referencia" width="750">
+  <img width="1536" height="1024" alt="ChatGPT Image 19 jul 2026, 20_38_18" src="https://github.com/user-attachments/assets/506beec0-8e51-4a8e-be94-27e742f4ebb8" />
 </p>
 
 
@@ -220,7 +220,7 @@ void mostrarResultado(int numero) {
 ### ▶️ Ejecución del Código
 
 <p align="center">
-  <img src="ImagenesU3/pase_por_referencia_ejecucion.png" alt="Captura de Pantalla Ejecución Pase por Referencia" width="750">
+  <img width="825" height="291" alt="Captura de pantalla 2026-07-20 022355" src="https://github.com/user-attachments/assets/91c7bcd1-34b3-4373-8f0c-c3a6af229bcb" />
 </p>
 
 
@@ -296,7 +296,7 @@ int main() {
 ### ▶️ Ejecución del Código
 
 <p align="center">
-  <img src="ImagenesU3/arregloUni_ejecucion.png" alt="Captura de Pantalla Ejecución Arreglo Unidimensional" width="750">
+  <img width="846" height="419" alt="Captura de pantalla 2026-07-20 022444" src="https://github.com/user-attachments/assets/47e68d1e-76d2-45e8-9347-99984596d3e8" />
 </p>
 
 
@@ -366,7 +366,7 @@ int main() {
 ### ▶️ Ejecución del Código
 
 <p align="center">
-  <img src="ImagenesU3/arregloBidi_ejecucion.png" alt="Captura de Pantalla Ejecución Arreglo Bidimensional" width="750">
+  <img width="869" height="313" alt="Captura de pantalla 2026-07-20 022536" src="https://github.com/user-attachments/assets/ae4b4da7-c693-4708-832e-a8c0d07bfd23" />
 </p>
 
 
@@ -449,7 +449,7 @@ int main() {
 ### ▶️ Ejecución del Código
 
 <p align="center">
-  <img src="ImagenesU3/arregloTridi_ejecucion.png" alt="Captura de Pantalla Ejecución Arreglo Tridimensional" width="750">
+  <img width="868" height="489" alt="Captura de pantalla 2026-07-20 022616" src="https://github.com/user-attachments/assets/0c357565-bc1a-41ec-a331-ba40a27831f6" />
 </p>
 
 
