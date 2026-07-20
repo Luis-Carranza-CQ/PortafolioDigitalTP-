@@ -15,7 +15,7 @@ Usa la siguiente tabla para navegar de forma rápida y limpia entre las diferent
 | :---: | :--- | :---: | :---: |
 | <img src="https://img.shields.io/badge/01-UNIDAD-blueviolet?style=flat-square" valign="middle"> | **Teoría de la Programación**<br>↳ *Datos Informativos, introducción y fundamentos.* | 🟢 Completado | [📁 Ir a Unidad 1](./UNIDAD%201/README1.md) |
 | <img src="https://img.shields.io/badge/02-UNIDAD-darkgreen?style=flat-square" valign="middle"> | **Estructuras Condicionales y Repetitivas**<br>↳ *Estructuras de control, diagramas de flujo y capturas de práctica.* | 🟢 Completado | [📁 Ir a Unidad 2](./UNIDAD%202/README2.md) |
-| <img src="https://img.shields.io/badge/03-UNIDAD-orange?style=flat-square" valign="middle"> | **Siguiente Unidad**<br>↳ *Contenido en desarrollo para las próximas clases.* | 🟡 En Progreso | [📁 Ir a Unidad 3](./UNIDAD%203/README3.md) |
+| <img src="https://img.shields.io/badge/03-UNIDAD-orange?style=flat-square" valign="middle"> | **Siguiente Unidad**<br>↳ *Contenido en desarrollo para las próximas clases.* | 🟢 Completado | [📁 Ir a Unidad 3](./UNIDAD%203/README3.md) |
 
 ---
 
