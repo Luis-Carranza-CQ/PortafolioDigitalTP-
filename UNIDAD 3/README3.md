@@ -34,8 +34,6 @@ La modularidad es uno de los principios más importantes en el diseño de softwa
 
 Cada función se diseña para cumplir una única tarea específica (**Alta Cohesión**) y debe depender lo menos posible del resto del programa (**Bajo Acoplamiento**).
 
----
-
 ## ¿Por qué es vital en computación?
 
 - **Reutilización:** Evita escribir el mismo código varias veces; basta con llamar a la función cuando se la necesite.
@@ -43,12 +41,10 @@ Cada función se diseña para cumplir una única tarea específica (**Alta Cohes
 - **Legibilidad:** El código se vuelve más limpio, organizado y fácil de entender.
 - **Escalabilidad:** Permite agregar nuevas funcionalidades sin modificar toda la estructura del programa.
 
----
-
 ## 💻 Diagrama
 
 <p align="center">
-  <img width="1536" height="1024" alt="Diagrama Modularidad" src="https://github.com/user-attachments/assets/39f3a9bb-6a41-430a-a831-bd9001d57355" />
+  <img width="1536" height="1024" alt="ChatGPT Image 19 jul 2026, 20_44_32" src="https://github.com/user-attachments/assets/f6962252-1831-4bec-b0ca-571e55eea6ba" />
 </p>
 
 ---
@@ -65,15 +61,12 @@ La función trabaja exclusivamente sobre esa copia. Por lo tanto, cualquier modi
 
 Este mecanismo ofrece mayor seguridad cuando no se desea modificar el valor original de una variable.
 
----
-
 ### 💻 Diagrama
 
 <p align="center">
-  <img src="ImagenesU3/pase_por_valor_diagrama.png" alt="Diagrama Pase por Valor" width="750">
+  <img width="1536" height="1024" alt="ChatGPT Image 19 jul 2026, 20_27_43" src="https://github.com/user-attachments/assets/c2c27d62-cd7d-422e-9135-b82aeb7e5019" />
 </p>
 
----
 
 ### 💻 Codificación
 
@@ -125,6 +118,29 @@ void mostrarResultado(int original, int duplicado) {
 
 ```
 
+### ▶️ Ejecución del Código
+
+<p align="center">
+  <img src="ImagenesU3/pase_por_valor_ejecucion.png" alt="Ejecución Pase por Valor" width="750">
+</p>
+
+### 📝 Explicación del Código
+
+El programa ilustra el aislamiento de variables que ocurre al implementar un pase de parámetros por valor en C.
+
+* **Pase por Valor (`duplicarNumero(numero)`)**: Al invocar la función, el valor contenido en la variable del `main` se duplica en una nueva celda de memoria asignada al argumento formal de la función.
+* **Modificación Aislada**: Cualquier operación realizada dentro de `duplicarNumero` ocurre estrictamente sobre la copia local. La variable `numero` del ámbito principal permanece intacta y libre de alteraciones no deseadas.
+* **Retorno de Datos**: Para poder usar el resultado del cálculo fuera de la función, esta debe usar obligatoriamente la instrucción `return`, asignando el valor de salida a la variable `resultado` en el `main`.
+
+
+### 📌 Idea Principal
+
+En el pase por valor:
+
+* Se genera y manipula una **copia independiente** del dato original en un espacio de memoria temporal.
+* La función **no puede alterar** el valor de la variable externa que fue enviada como argumento.
+* Es el método por defecto y más seguro en C para proteger la integridad de las variables originales cuando solo se necesita leer su información.
+
 ---
 
 ## 2.2 Pase por Referencia
@@ -137,7 +153,6 @@ Cuando queremos pasar un parámetro por referencia a una función, no enviamos u
 
 Al conocer la ubicación exacta del dato en el hardware, cualquier cambio que realice la función utilizando la **desreferenciación** modificará **directamente y en tiempo real** a la variable original ubicada en el `main`. Al finalizar la ejecución de la función, los cambios persisten de manera permanente.
 
----
 
 ### 💻 Diagrama
 
@@ -145,7 +160,6 @@ Al conocer la ubicación exacta del dato en el hardware, cualquier cambio que re
   <img src="ImagenesU3/pase_por_referencia_diagrama.png" alt="Diagrama de Pase por Referencia" width="750">
 </p>
 
----
 
 ### 💻 Codificación
 
@@ -209,24 +223,22 @@ void mostrarResultado(int numero) {
   <img src="ImagenesU3/pase_por_referencia_ejecucion.png" alt="Captura de Pantalla Ejecución Pase por Referencia" width="750">
 </p>
 
----
 
 ### 📝 Explicación del Código
 
-El programa simula un pase de parámetros por referencia implementando punteros, permitiendo que las funciones alteren el estado de las variables del `main()` de forma directa[cite: 1].
+El programa simula un pase de parámetros por referencia implementando punteros, permitiendo que las funciones alteren el estado de las variables del `main()` de forma directa.
 
 * **`leerNumero(int *numero)`**: Recibe la dirección de memoria de la variable local `numero`. Al ejecutar `scanf`, el valor introducido por el usuario se almacena directamente en la celda de memoria asignada en el programa principal.
-* **`duplicarPorReferencia(int *numero)`**: Accede al espacio físico de la variable original mediante el operador de desreferenciación (`*`). Multiplica el valor por dos y sobrescribe el espacio original[cite: 1].
+* **`duplicarPorReferencia(int *numero)`**: Accede al espacio físico de la variable original mediante el operador de desreferenciación (`*`). Multiplica el valor por dos y sobrescribe el espacio original.
 * **`main()`**: Al llamar finalmente a `mostrarResultado()`, la variable `numero` ya contiene el valor modificado (10 si se ingresó 5), demostrando que la función logró romper el aislamiento local que existía en el pase por valor.
 
----
 
 ### 📌 Idea Principal
 
 En el pase por referencia (simulado con punteros):
 
-* Se envía la dirección de memoria RAM de la variable utilizando el operador `&`[cite: 1].
-* Las funciones pueden modificar permanentemente los datos originales en tiempo real[cite: 1].
+* Se envía la dirección de memoria RAM de la variable utilizando el operador `&`.
+* Las funciones pueden modificar permanentemente los datos originales en tiempo real.
 * Es indispensable cuando una función necesita "retornar" más de un valor o actualizar estructuras de datos complejas.
 
 ---
@@ -238,16 +250,14 @@ Un arreglo es una estructura de datos que permite almacenar múltiples valores b
 * **Homogéneos:** Todos sus elementos deben ser del mismo tipo de dato (como enteros o flotantes).
 * **Estáticos:** Su tamaño se define al escribir el código y no puede crecer ni encogerse mientras el programa corre.
 
----
 
 ## 3.1 Arreglos Unidimensionales
 
 ### 💡 ¿Qué son?
 Un arreglo unidimensional, comúnmente llamado **vector**, es una lista lineal de elementos ordenados en una sola fila. Imagínalo como una tira de casilleros numerados. Cada casillero tiene un índice para saber su posición. 
 
-En computación y en lenguaje C siempre empezamos a contar desde el **índice 0**. Si el vector tiene un tamaño de 5, sus índices válidos serán 0, 1, 2, 3 y 4[cite: 1].
+En computación y en lenguaje C siempre empezamos a contar desde el **índice 0**. Si el vector tiene un tamaño de 5, sus índices válidos serán 0, 1, 2, 3 y 4.
 
----
 
 ### 💻 Codificación
 
@@ -289,36 +299,33 @@ int main() {
   <img src="ImagenesU3/arregloUni_ejecucion.png" alt="Captura de Pantalla Ejecución Arreglo Unidimensional" width="750">
 </p>
 
----
 
 ### 📝 Explicación del Código
 
 El programa ilustra la declaración, inicialización y recorrido secuencial de un arreglo unidimensional en C.
 
-* **Declaración (`float notas[5]`)**: Reserva un espacio continuo en memoria para almacenar 5 valores de tipo flotante (`float`) inicializados explícitamente en una sola línea[cite: 1].
-* **Bucle `for`**: Configura un iterador `i` que inicia en `0` y se incrementa de uno en uno mientras sea menor que `5`[cite: 1]. Esto permite acceder de forma exacta a cada celda del vector mediante la sintaxis `notas[i]`[cite: 1].
-* **Acumulador (`suma = suma + notas[i]`)**: En cada iteración se extrae el valor del índice correspondiente y se adiciona a la variable acumuladora para calcular el promedio final tras romper el ciclo[cite: 1].
+* **Declaración (`float notas[5]`)**: Reserva un espacio continuo en memoria para almacenar 5 valores de tipo flotante (`float`) inicializados explícitamente en una sola línea.
+* **Bucle `for`**: Configura un iterador `i` que inicia en `0` y se incrementa de uno en uno mientras sea menor que `5`. Esto permite acceder de forma exacta a cada celda del vector mediante la sintaxis `notas[i]`.
+* **Acumulador (`suma = suma + notas[i]`)**: En cada iteración se extrae el valor del índice correspondiente y se adiciona a la variable acumuladora para calcular el promedio final tras romper el ciclo.
 
----
 
 ### 📌 Idea Principal
 
 En los arreglos unidimensionales (vectores):
 
-* El acceso a cualquier elemento es directo y rápido utilizando su número de índice (`vector[indice]`)[cite: 1].
-* El primer elemento de la estructura siempre se encuentra en la posición `0`[cite: 1].
-* Son ideales para iterar colecciones de datos lineales de forma compacta utilizando estructuras cíclicas controladas como el bucle `for`[cite: 1].
+* El acceso a cualquier elemento es directo y rápido utilizando su número de índice (`vector[indice]`).
+* El primer elemento de la estructura siempre se encuentra en la posición `0`.
+* Son ideales para iterar colecciones de datos lineales de forma compacta utilizando estructuras cíclicas controladas como el bucle `for`.
 
 ---
 
 ## 3.2 Arreglos Bidimensionales
 
 ### 💡 ¿Qué son?
-Un arreglo bidimensional, conocido como **matriz**, organiza los elementos en dos dimensiones: **filas y columnas** (como un tablero de ajedrez o una cuadrícula de Excel)[cite: 1]. Para ubicar un elemento específico, necesitas proveer dos índices de coordenadas: `matriz[fila][columna]`.
+Un arreglo bidimensional, conocido como **matriz**, organiza los elementos en dos dimensiones: **filas y columnas** (como un tablero de ajedrez o una cuadrícula de Excel). Para ubicar un elemento específico, necesitas proveer dos índices de coordenadas: `matriz[fila][columna]`.
 
 Internamente en la memoria de la computadora, la matriz se guarda de forma lineal, una fila detrás de la otra (*Row-Major Order*), aunque nuestra mente la abstraiga en 2D.
 
----
 
 ### 💻 Codificación
 
@@ -362,25 +369,23 @@ int main() {
   <img src="ImagenesU3/arregloBidi_ejecucion.png" alt="Captura de Pantalla Ejecución Arreglo Bidimensional" width="750">
 </p>
 
----
 
 ### 📝 Explicación del Código
 
 El programa muestra la manera en que se procesan las estructuras bidimensionales mediante ciclos anidados.
 
 * **Declaración (`int matriz[3][3]`)**: Inicializa una matriz fija de $3 \times 3$ (9 celdas en total) agrupando los datos entre llaves internas que representan cada una de las filas en la cuadrícula.  
-* **Bucle Anidado**: Requiere de dos contadores estructurados en capas. El bucle externo `i` controla la fila actual, mientras que el bucle interno `j` itera secuencialmente a través de cada columna de esa fila antes de avanzar[cite: 1].  
+* **Bucle Anidado**: Requiere de dos contadores estructurados en capas. El bucle externo `i` controla la fila actual, mientras que el bucle interno `j` itera secuencialmente a través de cada columna de esa fila antes de avanzar.  
 * **Espaciador (`\t`)**: Aplica una tabulación horizontal para mantener las columnas perfectamente alineadas al imprimir los datos en la terminal, seguido de un salto de línea `\n` al finalizar cada ciclo interno.  
 
----
 
 ### 📌 Idea Principal
 
 En los arreglos bidimensionales (matrices):
 
-* Se requieren dos coordenadas para acceder a cualquier dato: el primer índice indica la fila y el segundo la columna (`matriz[f][c]`)[cite: 1].  
-* Su lectura o impresión en pantalla se optimiza mediante el uso de **bucles `for` anidados** (uno dentro de otro)[cite: 1].
-* Aunque se representen visualmente de forma rectangular o cuadrada, en la memoria física de la computadora se estructuran como una sola secuencia continua de celdas lineales[cite: 1].
+* Se requieren dos coordenadas para acceder a cualquier dato: el primer índice indica la fila y el segundo la columna (`matriz[f][c]`).  
+* Su lectura o impresión en pantalla se optimiza mediante el uso de **bucles `for` anidados** (uno dentro de otro).
+* Aunque se representen visualmente de forma rectangular o cuadrada, en la memoria física de la computadora se estructuran como una sola secuencia continua de celdas lineales.
 
 ---
 
@@ -392,9 +397,8 @@ Un arreglo tridimensional añade una dimensión extra al almacenamiento, concept
 2. El segundo índice indica la **Fila** (en qué renglón de esa hoja estás).
 3. El tercer índice indica la **Columna** (en qué celda de esa fila te ubicas).
 
-Se declaran bajo la sintaxis: `arreglo[capas][filas][columnas]`. Son muy utilizados para procesar imágenes digitales a color (canales RGB) o registros de bases de datos multiindexadas en el tiempo[cite: 1].
+Se declaran bajo la sintaxis: `arreglo[capas][filas][columnas]`. Son muy utilizados para procesar imágenes digitales a color (canales RGB) o registros de bases de datos multiindexadas en el tiempo.
 
----
 
 ### 💻 Codificación
 
@@ -441,7 +445,6 @@ int main() {
 
 ```
 
----
 
 ### ▶️ Ejecución del Código
 
@@ -449,26 +452,38 @@ int main() {
   <img src="ImagenesU3/arregloTridi_ejecucion.png" alt="Captura de Pantalla Ejecución Arreglo Tridimensional" width="750">
 </p>
 
----
 
 ### 📝 Explicación del Código
 
 El programa ejemplifica el manejo de datos con tres niveles de abstracción espacial mediante bucles altamente anidados.
 
-* **Declaración (`float clima[3][2][2]`)**: Define una estructura cúbica estática que almacena lecturas meteorológicas, distribuidas jerárquicamente en 3 estaciones (capas), 2 zonas por estación (filas) y 2 sensores por zona (columnas)[cite: 1].
-* **Triple Bucle Anidado**: Requiere tres contadores independientes. El bucle externo `k` selecciona de manera secuencial la capa o estación, el intermedio `i` selecciona la fila interna, y el más profundo `j` recorre las celdas de las columnas[cite: 1].
-* **Acceso Multidimensional (`clima[k][i][j]`)**: Permite ubicar de forma unívoca y exacta la temperatura de un sensor específico cruzando las tres variables de control en cada iteración interna[cite: 1].
+* **Declaración (`float clima[3][2][2]`)**: Define una estructura cúbica estática que almacena lecturas meteorológicas, distribuidas jerárquicamente en 3 estaciones (capas), 2 zonas por estación (filas) y 2 sensores por zona (columnas).
+* **Triple Bucle Anidado**: Requiere tres contadores independientes. El bucle externo `k` selecciona de manera secuencial la capa o estación, el intermedio `i` selecciona la fila interna, y el más profundo `j` recorre las celdas de las columnas.
+* **Acceso Multidimensional (`clima[k][i][j]`)**: Permite ubicar de forma unívoca y exacta la temperatura de un sensor específico cruzando las tres variables de control en cada iteración interna.
 
----
 
 ### 📌 Idea Principal
 
 En los arreglos tridimensionales (cubos de datos):
 
-* Se necesitan obligatoriamente tres coordenadas o índices para extraer o guardar un solo elemento en la estructura (`arreglo[capa][fila][columna]`)[cite: 1].
-* Su procesamiento requiere de forma natural la implementación de un triple bucle anidado[cite: 1].
-* Son ideales para representar información compleja del mundo real estructurada por capas, como mapas tridimensionales, procesamiento de píxeles RGB o series de tiempo segmentadas geográficamente[cite: 1].
+* Se necesitan obligatoriamente tres coordenadas o índices para extraer o guardar un solo elemento en la estructura (`arreglo[capa][fila][columna]`).
+* Su procesamiento requiere de forma natural la implementación de un triple bucle anidado.
+* Son ideales para representar información compleja del mundo real estructurada por capas, como mapas tridimensionales, procesamiento de píxeles RGB o series de tiempo segmentadas geográficamente.
 
 ---
 
+# 4. Principales Dificultades
 
+* **Pelear con los Punteros:** El mayor tropiezo fue entender cómo usar los punteros (`*` y `&`) para cambiar datos por referencia. Al principio cuesta asimilar que se están manejando direcciones de la memoria RAM y no el valor directo, lo que suele causar errores donde el programa se cierra solo (*Segmentation Fault*).
+* **Perderse entre tantos bucles for:** Al trabajar con matrices y cubos (2D y 3D), cuesta bastante coordinar varios bucles metidos uno dentro de otro. Es sumamente fácil equivocarse en los índices y terminar imprimiendo datos cruzados.
+* **Errores Invisibles:** En lenguaje C, si se pone por error un índice que no existe (como buscar la posición 5 en un arreglo que solo llega hasta el 4), el compilador no avisa nada. El programa sigue corriendo pero empieza a leer o dañar datos de otras variables. Aprender a rastrear y limpiar estos fallos invisibles fue muy estresante.
+
+---
+
+# 5. Reflexión Crítica
+
+Escribir código usando estas herramientas cambió completamente mi forma de programar. Con la modularidad me di cuenta de que no se trata de escribir líneas a lo loco, sino de diseñar piezas que encajen bien. Ahora puedo crear código ordenado y limpio que sé que podré reutilizar en futuros proyectos de mi carrera.
+
+Por otro lado, aprender a usar arreglos y cubos de información me abrió la mente. Aunque manejar la memoria de la computadora de forma manual con punteros fue difícil, entiendo que es una habilidad clave en Computación para hacer programas rápidos y eficientes. Siento que estas bases me preparan para retos reales y mucho más grandes en el futuro.
+
+---
