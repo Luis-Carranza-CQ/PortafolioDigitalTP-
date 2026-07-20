@@ -21,8 +21,6 @@
   - [3.3 Arreglos Tridimensionales](#33-arreglos-tridimensionales)
 - [4. Principales Dificultades](#4-principales-dificultades)
 - [5. Reflexión Crítica](#5-reflexión-crítica)
-- [6. Conclusiones Generales](#6-conclusiones-generales)
-- [7. Bibliografía](#7-bibliografía)
 
 ---
 
